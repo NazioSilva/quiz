@@ -8,3 +8,13 @@ const config = {
     '@storybook/preset-create-react-app',
     '@storybook/addon-interactions',
   ],
+  framework: {
+    name: '@storybook/react-webpack5',
+    options: {},
+  },
+  docs: {
+    autodocs: 'tag',
+  },
+  staticDirs: ['..\\public'],
+};
+
